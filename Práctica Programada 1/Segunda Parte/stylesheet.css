@@ -12,16 +12,16 @@ body {
     text-align: center;
 }
 
-.navbar li {
-    margin: 0 15px;
-}
-
 .navbar ul {
     list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
     justify-content: center;
+}
+
+.navbar li {
+    margin: 0 15px;
 }
 
 .navbar a {
@@ -72,6 +72,15 @@ body {
 .comentarios {
     padding: 30px;
     text-align: center;
+}
+
+.tarjeta {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 400px;
 }
 
 .tarjeta h3 {
